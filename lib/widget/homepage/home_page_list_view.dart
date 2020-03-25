@@ -17,46 +17,32 @@ class HomePageListView extends StatelessWidget {
           Row(
             children: <Widget>[
               Text(
-                'Bir Deyim',
+                'Farmácia dos Farmaceuticos',
                 style: TextStyle(color: AppConstant.colorProverbsIdiomsText),
               ),
             ],
           ),
           SizedBox(height: 8),
-          IdiomCard(title: 'on para', content: 'çok az (para).'),
+          IdiomCard(
+              aberto: true,
+              image: 'assets/bg.jpg',
+              title: '99999-9999',
+              content: '2453-5353'),
           SizedBox(height: 24),
           Row(
             children: <Widget>[
               Text(
-                'Bir Atasözü',
+                'Lanchonete dos Lanches',
                 style: TextStyle(color: AppConstant.colorProverbsIdiomsText),
               ),
             ],
           ),
           SizedBox(height: 8),
-          IdiomCard(title: 'siyem siyem ağlamak', content: 'hafif hafif, ince ince, durmadan gözyaşı dökmek.'),
-          SizedBox(height: 24),
-          Row(
-            children: <Widget>[
-              Text(
-                'Bir Kelime',
-                style: TextStyle(color: AppConstant.colorProverbsIdiomsText),
-              ),
-            ],
-          ),
-          SizedBox(height: 8),
-          IdiomCard(title: 'Kalem', content: 'Yazma, çizme vb. işlerde kullanılan çeşitli biçimlerde araç.'),
-          SizedBox(height: 24),
-          Row(
-            children: <Widget>[
-              Text(
-                'Bir Kelime',
-                style: TextStyle(color: AppConstant.colorProverbsIdiomsText),
-              ),
-            ],
-          ),
-          SizedBox(height: 8),
-          IdiomCard(title: 'Kalem', content: 'Yazma, çizme vb. işlerde kullanılan çeşitli biçimlerde araç.'),
+          IdiomCard(
+              aberto: false,
+              image: 'assets/bg.jpg',
+              title: '999883-9999',
+              content: '2452-5354'),
           SizedBox(height: 24),
           Row(
             children: <Widget>[
@@ -67,7 +53,41 @@ class HomePageListView extends StatelessWidget {
             ],
           ),
           SizedBox(height: 8),
-          IdiomCard(title: 'Kalem', content: 'Yazma, çizme vb. işlerde kullanılan çeşitli biçimlerde araç.'),
+          IdiomCard(
+              aberto: false,
+              image: 'assets/bg.jpg',
+              title: '999883-9999',
+              content: '2452-5354'),
+          SizedBox(height: 24),
+          Row(
+            children: <Widget>[
+              Text(
+                'Bir Kelime',
+                style: TextStyle(color: AppConstant.colorProverbsIdiomsText),
+              ),
+            ],
+          ),
+          SizedBox(height: 8),
+          IdiomCard(
+              aberto: false,
+              image: 'assets/bg.jpg',
+              title: '999883-9999',
+              content: '2452-5354'),
+          SizedBox(height: 24),
+          Row(
+            children: <Widget>[
+              Text(
+                'Bir Kelime',
+                style: TextStyle(color: AppConstant.colorProverbsIdiomsText),
+              ),
+            ],
+          ),
+          SizedBox(height: 8),
+          IdiomCard(
+              aberto: false,
+              image: 'assets/bg.jpg',
+              title: '999883-9999',
+              content: '2452-5354'),
         ],
       ),
     );

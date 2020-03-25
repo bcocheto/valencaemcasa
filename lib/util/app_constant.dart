@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppConstant {
   //region colors
-  static final Color colorPrimary = Color(0xFFE11E3C);
+  static final Color colorPrimary = Color(0xFF009688);
   static final Color colorPageBg = Color(0xFFF8F8F8);
   static final Color colorHeading = Color(0xFF0A151F);
   static final Color colorParagraph = Color(0xFF4B5866);
@@ -16,9 +16,9 @@ class AppConstant {
   static final Color colorProverbsIdiomsText = Color(0xFF4F3822);
   static final Color colorVersionText = Color(0xFFF3A5B1);
   static final Color colorDrawerButton = Color(0xFFE8EAED);
-  static final Color colorPullDown1 = Color(0xFFB41830);
+  static final Color colorPullDown1 = Color(0xFF009688);
   static final Color colorPullDown2 = Color(0xFFDEE3E3);
-  static final Color colorBackButton = Color(0xFF48515B);
+  static final Color colorBackButton = Color(0xFF00675b);
   static final Color colorAppDescription = Color(0xFF33414C);
   static final Color colorBottomSheetItemHeader = Color(0xFF183148);
   static final Color colorBottomSheetDivider = Color(0xFFEEF0F2);
@@ -47,13 +47,16 @@ class AppConstant {
   static final String epostayaz = 'E-Posta Yaz';
   static final String atasozudeyim = 'Atasözü & Deyim';
   static final String katkioneri = 'Katkı ve Öneriler';
-  static final String katkiOneriDetails = 'Katkı ve önerileriniz için bize e-posta gönderebilirsiniz.';
-  static final String address = 'Atatürk Bulvarı No: 217 06680 Kavaklıdere/ANKARA';
-  static final String phoneNumber = '+90 312 457 52 00';
+  static final String katkiOneriDetails =
+      'Katkı ve önerileriniz için bize e-posta gönderebilirsiniz.';
+  static final String address =
+      'Atatürk Bulvarı No: 217 06680 Kavaklıdere/ANKARA';
+  static final String phoneNumber = '+5524988042201';
   static final String eposta = 'bilgi@tdk.gov.tr';
   static final String magaza = 'Kızılay Kitap Satış Mağazası';
   static final String eMagaza = 'E-Mağazaya Git';
-  static final String magazaAddress = 'Cumhuriyet Mahallesi, Bayındır 1 Sokak, No: 24/6 Kızılay/ANKARA';
+  static final String magazaAddress =
+      'Cumhuriyet Mahallesi, Bayındır 1 Sokak, No: 24/6 Kızılay/ANKARA';
   static final String appLongRichDescription = "Türk Dil Kurumu";
   static final String appLongDescription =
       '’nun 1945’ten beri yayımlanan Türkçe Sözk’ünün 2011 yılında yapılan 11. baskısının gözden geçirilip güncellenerek taşınabilir cihazlar için hazırlanan sürümüdür.';
